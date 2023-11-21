@@ -18,4 +18,7 @@ The url can be changed to provide params as such:
 - http://127.0.0.1:8000/geo_json_generator/consumers/max_previous_jobs_count=3&status=collected
 - http://127.0.0.1:8000/geo_json_generator/consumers/status=collected
 
-Note: The endpoint currently adds the data from a csv file to the data store at each call to ensure data consistency. The ideal scenario would be to add a separate endpoint where you can supply the URL of a csv file or load from a specific file locally.
+Improvements:
+- The endpoint currently adds the data from a csv file to the data store at each call to ensure data consistency. The ideal scenario would be to add a separate endpoint where you can supply the URL of a csv file or load from a specific file locally.
+- Testing should be added for each scenario
+- Pagination should be added on endpoint
